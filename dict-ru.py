@@ -23,13 +23,8 @@ result = rq.get('https://api.dictionaryapi.dev/api/v2/entries/ru/рот')
 json_payload = result.json()
 
 
-result_dict = json_payload[0]
-
-
-print(result_dict)
-
-print(type(result_dict))
-
+print(type(result))
+print(type(json_payload))
 
 
 
